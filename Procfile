@@ -1,2 +1,2 @@
 export FLASK_APP=flaskr
-web: gunicorn app:app
+web: gunicorn --chdir flaskr app:app
